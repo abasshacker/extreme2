@@ -213,6 +213,21 @@ function create_config( )
     "ingroup",
     "inpm",
     "banhammer",
+    "calc",
+    "chatlock",
+    "echo",
+    "feed",
+    "file",
+    "filterorg",
+    "filter",
+    "info",
+    "lab",
+    "pok",
+    "quran",
+    "qr",
+    "sticker",
+    "well",
+    "id",
     "anti_spam",
     "owners",
     "arabic_lock",
@@ -243,14 +258,14 @@ function create_config( )
     "filterword",
     "lock_join"
     },
-    sudo_users = {158990680},--Sudo users
+    sudo_users = {179983320},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-https://github.com/BH-YAGHI/NOD32-BOT.git
+https://github.com/abasshacker/extreme2
 
-channel : @Nod32team
-sodu : @behrooZyaghi
+channel : extremerobos
+sodu : @unkownhacker
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -412,6 +427,9 @@ NOD32 Commands list :
 !lock arabic
 قفل چت ممنوع گروه
 
+!filter + text
+!filter - text
+
 !unlock 
 [member*name*leave]
 [link*tag*arabic*bots]
@@ -475,16 +493,18 @@ NOD32 Commands list :
 !version
 ورژن ربات
 
+!echo text 
+!calc 2+2
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 
-Developer: @behroozYaghi
+Developer/sudo: @unkownhacker
 توسعه دهنده
 
-channel: @nod32team
+channel: @extremerobos
 کانال ما
 
-G00D LUCK ^_^
+tnx to @imandaneshi
 ]]
   }
   serialize_to_file(config, './data/config.lua')
